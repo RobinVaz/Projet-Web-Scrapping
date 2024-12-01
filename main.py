@@ -307,4 +307,4 @@ if table:
         print(f"Erreur lors de la conversion en PDF : {e}")
 
 else:
-    print("Le tableau des villes n'a pas été trouvé.")
+    print("Aucun tableau trouvé.")
