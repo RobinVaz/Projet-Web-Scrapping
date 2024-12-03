@@ -177,7 +177,7 @@ if sommaire_section:
     """
 
     # Création du PDF
-    pdf_folder = "Sommaire_PDF"
+    pdf_folder = "Sommaire PDF"
     if not os.path.exists(pdf_folder):
         os.makedirs(pdf_folder)
 
@@ -185,7 +185,7 @@ if sommaire_section:
         f.write(sommaire_html)
     print("Le fichier HTML temporaire a été créé avec succès.")
 
-    pdf_output_path = os.path.join(pdf_folder, "sommaire_retour_vers_le_futur.pdf")
+    pdf_output_path = os.path.join(pdf_folder, "Sommaire RVLF.pdf")
     try:
         pdfkit.from_file("sommaire_temp.html", pdf_output_path)
         print(f"Le PDF du sommaire a été créé avec succès : {pdf_output_path}")
