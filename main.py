@@ -51,7 +51,7 @@ if distribution_section:
 
         # Sauvegarde du fichier HTML
         
-        with open("Acteur Retour vers le futur.html", "w", encoding="utf-8") as f:
+        with open("Distribution RVLF.html", "w", encoding="utf-8") as f:
             f.write(html_content)
 
         print("Le fichier HTML a été créé avec succès.")
